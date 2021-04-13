@@ -40,7 +40,7 @@ function markupMoreList(data) {
     const moreList = gallery.insertAdjacentHTML('beforeend', galleryTamplate(data));
     setTimeout(() => {
             scroll()
-        },500)
+        },700)
 }
 
 function scroll() {
